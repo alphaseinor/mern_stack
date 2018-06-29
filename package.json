@@ -1,0 +1,29 @@
+{
+  "name": "mern_stack",
+  "version": "1.0.0",
+  "description": "shopping list MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphaseinor/mern_stack.git"
+  },
+  "author": "Brian Hague",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alphaseinor/mern_stack/issues"
+  },
+  "homepage": "https://github.com/alphaseinor/mern_stack#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
