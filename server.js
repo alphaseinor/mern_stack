@@ -2,6 +2,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 
+const items = require('./routes/api/items');
+
 const app = express();
 app.use(bodyParser.json());
 
@@ -12,6 +14,8 @@ mongoose
     .connect(db)
     .then(() => console.log('connected to db... ')) //if it connects then
     .catch(err => console.log(err)); // if it doesn't connect then
+
+app.use('/api/items', items);
 
 const port = process.env.PORT || 5000; // this allows us to go serverless || local
 
