@@ -30,7 +30,7 @@ started creating model in mongoose, models directory, Item.js file inside has th
 added routes and api folders, and added items.js file
 added GET route.
 
-tested using postman
+tested using postman, http://localhost:5000/api/items, got a 200 and an empty set back, so it's good
 
 
 
