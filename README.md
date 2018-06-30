@@ -1,6 +1,7 @@
 # mern_stack
 
 ##6/30/18
+It's a new day!
 
 
 ##6/29/18
