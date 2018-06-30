@@ -1,6 +1,9 @@
 # mern_stack
 
-6/29/18
+##6/30/18
+
+
+##6/29/18
 
 This is just me figuring out MERN stack... it's just a shopping list app, no security at this time.
 
@@ -46,3 +49,16 @@ changed server package.json file so we have scripts
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "client-install": "npm install --prefix client"
   },
+
+note with killing the port 3000, at least on my mac
+lsof -i :3000
+kill -9 PID
+
+ran
+npm i bootstrap reactstrap uuid react-transition-group
+
+will start building the react app first then eventually use redux. using uuid for the static testing of the react app. 
+
+Added AppNavBar in components directory, used reactstrap for a simple responsive "hamburger" menu.
+Just added a link to my github page. 
+
