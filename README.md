@@ -33,3 +33,16 @@ added GET route.
 tested using postman, http://localhost:5000/api/items, got a 200 and an empty set back, so it's good
 Added POST and DELETE routes... works
 
+created new folder called client for the client side app.
+
+cd client
+create-react-app (should be installed globally using npm i -g create-react-app)
+
+changed server package.json file so we have scripts 
+ "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "client-install": "npm install --prefix client"
+  },
