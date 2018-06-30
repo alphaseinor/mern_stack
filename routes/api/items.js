@@ -13,5 +13,24 @@ router.get('/', (req, res) => {
     .then(items => res.json(items))
 });
 
+// @routes POST api/items
+// @desc create an item
+//@access Public (for now)
+router.post('/', (req, res) => {
+    const newItem = new Item({
+        name: req.body.name
+    });
+    newItem.save().then(item => res.json(item));
+});
+
+// @routes DELETE api/items/:id
+// @desc delete an item
+//@access Public (for now)
+router.delete('/:id', (req, res) => {
+    Item.findById(req.params.id)
+    .then(item => item.remove().then(() => res.json({success: true})))
+    .catch(err => res.status(404).json({success: false}));
+});
+
 
 module.exports = router;
