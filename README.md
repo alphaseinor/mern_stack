@@ -31,6 +31,5 @@ added routes and api folders, and added items.js file
 added GET route.
 
 tested using postman, http://localhost:5000/api/items, got a 200 and an empty set back, so it's good
-
-
+Added POST and DELETE routes... works
 
