@@ -2,7 +2,11 @@
 
 ##6/30/18
 It's a new day!
+going to add a crapton of boilerplate... redux redux redux, it will be the death of you.
 
+make sure you are in the client directory so
+cd client
+npm i redux react-redux redux-thunk
 
 ##6/29/18
 
