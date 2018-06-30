@@ -68,3 +68,6 @@ Made list of items
 
 Tested adding works, however it's not connected to the back end yet, so it's only store in memory, and does not pass the ACID test, since it's not persistant.
 
+Added delete button
+added some css to App.css
+
