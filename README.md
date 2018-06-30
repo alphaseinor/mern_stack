@@ -71,3 +71,5 @@ Tested adding works, however it's not connected to the back end yet, so it's onl
 Added delete button
 added some css to App.css
 
+Going back to study some redux... good night!
+
