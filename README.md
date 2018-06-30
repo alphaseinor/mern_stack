@@ -62,3 +62,9 @@ will start building the react app first then eventually use redux. using uuid fo
 Added AppNavBar in components directory, used reactstrap for a simple responsive "hamburger" menu.
 Just added a link to my github page. 
 
+started shoppinglist 
+Made Add Item button
+Made list of items
+
+Tested adding works, however it's not connected to the back end yet, so it's only store in memory, and does not pass the ACID test, since it's not persistant.
+
