@@ -21,7 +21,8 @@ package-lock.json
 *.log
 *.gz
 
-
+#this application keys
+config/keys.js
 
 # Coveralls
 coverage

@@ -13,12 +13,12 @@ const db = require('./config/keys').mongoURI;
 //connect to DB
 mongoose
     .connect(db)
-    .then(() => console.log('connected to db... ')) //if it connects then
+    .then(() => console.log('ЭЕ connected to db... ')) //if it connects then
     .catch(err => console.log(err)); // if it doesn't connect then
 
 app.use('/api/items', items);//use routes
 
-//serve statuc assets if in production
+//serve static assets if in production
 if(process.env.NODE_ENV === 'production') {
     //set static folder
     app.use(express.static('client/build'));
@@ -30,4 +30,4 @@ if(process.env.NODE_ENV === 'production') {
 
 const port = process.env.PORT || 5000; // this allows us to go serverless || local
 
-app.listen(port, () => console.log(`server started on port ${port}`)); //listen on above port
+app.listen(port, () => console.log(`ЭЕ server started on port ${port}`)); //listen on above port
