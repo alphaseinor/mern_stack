@@ -26,7 +26,20 @@ Made ItemModal.js under components that is the modal window to add an item.
 
 added addItem to the reducer, and itemModal
 
-I'll work on connecting to the Express.js API back end tomorrow.
+I'll work on connecting to the Express.js API next
+
+need to make a request in the acitons, we need to change the item reducer. remove the static data, add loading: false since there is a delay in loading data.
+
+Added ITEMS_LOADING to reducer.
+
+Installed axios in client folder, this is just an HTTP client.
+
+npm i axios
+
+changed reducer for add delete and get. 
+changed id to _id for mongo db
+
+
 
 ##6/29/18
 
