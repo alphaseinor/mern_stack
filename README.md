@@ -1,5 +1,9 @@
 # mern_stack
 
+##7/01/18
+God... rent is due again! Didn't I just pay it last month!
+
+
 ##6/30/18
 It's a new day!
 going to add a crapton of boilerplate... redux redux redux, it will be the death of you.
@@ -22,7 +26,7 @@ Made ItemModal.js under components that is the modal window to add an item.
 
 added addItem to the reducer, and itemModal
 
-
+I'll work on connecting to the Express.js API back end tomorrow.
 
 ##6/29/18
 
