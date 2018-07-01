@@ -13,7 +13,16 @@ npm i redux react-redux redux-thunk
 added a ton of boilerplate code... gotta see the commits from last night (late). 
 
 Today I'm going to remove the uuid from shoppingList.js since it's not used in that file anymore
-I can display the object items in the itemReducer.js file. so my boilerplate works.
+
+I can display the static object items in the itemReducer.js file. so my boilerplate works.
+
+I have delete items working, however my Redux dev tools stopped working, so BAH!!!! I'll figure that out later... 
+
+Made ItemModal.js under components that is the modal window to add an item.
+
+added addItem to the reducer, and itemModal
+
+
 
 ##6/29/18
 
