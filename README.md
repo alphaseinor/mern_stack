@@ -10,6 +10,11 @@ cd client
 
 npm i redux react-redux redux-thunk
 
+added a ton of boilerplate code... gotta see the commits from last night (late). 
+
+Today I'm going to remove the uuid from shoppingList.js since it's not used in that file anymore
+I can display the object items in the itemReducer.js file. so my boilerplate works.
+
 ##6/29/18
 
 This is just me figuring out MERN stack... it's just a shopping list app, no security at this time.
